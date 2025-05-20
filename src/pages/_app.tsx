@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <header>
-        <h1>글로벌 헤더</h1>
+        <div>글로벌 헤더</div>
       </header>
       <Component {...pageProps} />
     </>
